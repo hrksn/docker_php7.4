@@ -7,9 +7,11 @@ but volumes is ./php/html:/var/www/html in docker-compose.yml
 
 Example.
 
-deploy framework to ./php/html/myapp 
+rm -rf myapp
 
-deploy index.php to ./php/html/myapp/public
+AND 
+
+composer create-project --prefer-dist "laravel/laravel=" myapp
 
 ## Web
 http://localhost
