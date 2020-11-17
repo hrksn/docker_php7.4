@@ -1,4 +1,7 @@
 FROM php:7.4-apache
+
+RUN docker-php-ext-install pdo_mysql
+
 COPY conf/php.ini /usr/local/etc/php/conf.d/
 COPY 000-default.conf /etc/apache2/sites-enabled/
 
