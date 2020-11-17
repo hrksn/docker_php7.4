@@ -1,4 +1,4 @@
-# docker_php7.4
+# docker_php7.4_framework
 
 ## DocumentRoot is php/html/myapp/public
 Please deploy your code in DocumentRoot
