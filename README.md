@@ -7,13 +7,11 @@ docker-compose up -d
 
 TEST: http://localhost
 
-TEST OK -> rm -rf php/html/myapp
+1. rm -rf php/html/myapp
 
-AND 
+2. Enter the docker container 
 
-cd php/html
-
-composer create-project --prefer-dist "laravel/laravel=" myapp
+3. composer create-project --prefer-dist "laravel/laravel=" myapp
 
 ## Web
 http://localhost
