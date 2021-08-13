@@ -5,13 +5,13 @@ Please deploy your code in DocumentRoot
 
 docker-compose up -d
 
-volumes is ./php/html:/var/www/html in docker-compose.yml
+TEST: http://localhost
 
-Example.
-
-rm -rf myapp
+TEST OK -> rm -rf php/html/myapp
 
 AND 
+
+cd php/html
 
 composer create-project --prefer-dist "laravel/laravel=" myapp
 
