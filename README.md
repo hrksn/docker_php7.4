@@ -3,7 +3,9 @@
 ## DocumentRoot is php/html/myapp/public
 Please deploy your code in DocumentRoot
 
-but volumes is ./php/html:/var/www/html in docker-compose.yml
+docker-compose up -d
+
+volumes is ./php/html:/var/www/html in docker-compose.yml
 
 Example.
 
