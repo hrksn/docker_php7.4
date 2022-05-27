@@ -1,7 +1,7 @@
 # docker_php7.4_framework
 
 ## DocumentRoot is php/html/myapp/public
-Please deploy your code in DocumentRoot
+When you see the TEST URL, delete the test code and deploy your code
 
 docker-compose up -d
 
